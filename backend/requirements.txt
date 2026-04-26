@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+supabase
+anthropic
+python-dotenv
+pypdf
+langchain-text-splitters
+requests
+pydantic
