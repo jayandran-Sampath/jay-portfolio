@@ -14,7 +14,10 @@ USE_LOCAL = os.getenv("USE_LOCAL", "true").lower() == "true"
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://jaidg2012.github.io"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://jayandran-sampath.github.io",
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
